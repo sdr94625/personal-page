@@ -1,0 +1,10 @@
+.classBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27vw;
+    background-color: #181818;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+}

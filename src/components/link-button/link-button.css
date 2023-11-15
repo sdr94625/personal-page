@@ -1,7 +1,7 @@
 .button{
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-left: 1rem;
     background-color: #131313;
     height: 20rem;
@@ -14,4 +14,23 @@
 .button:hover{
     background-color: #181818;
     box-shadow: 0 0 0 1px #a9a9a9;
+}
+
+#experience{
+    background-image: url("./../../images/experienceBackground2.avif");
+    background-position: center;
+    background-size: cover;
+}
+
+#education{
+    background-image: url("./../../images/education.avif");
+    background-position: center;
+    background-size:cover;
+}
+
+#github{
+    background-image: url("./../../images/github-mark.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #dddddd;
 }

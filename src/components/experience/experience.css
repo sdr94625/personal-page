@@ -1,0 +1,24 @@
+.experienceBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27vw;
+    background-color: #181818;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.jobTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+.jobInfo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}

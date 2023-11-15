@@ -1,11 +1,18 @@
 import Link from 'next/link'
 import './link-button.css'
-export const LinkButton = (props: any) => {
+
+interface Props{
+    route: string
+    buttonType: string
+    label: string
+}
+
+export const LinkButton: React.FC<Props> = ({route, buttonType, label}):JSX.Element => {
 
     return(
-        <Link href={'/experience'}>
-            <div className="button">
-                <p>{props.label}</p>
+        <Link href={route}>
+            <div id={buttonType} className="button">
+                <p>{label}</p>
             </div>
         </Link>
         
