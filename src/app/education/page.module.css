@@ -24,3 +24,9 @@
     transition: .4s background-color;
     transition: .2s box-shadow;
   }
+
+  .classes{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+  }

@@ -1,3 +1,4 @@
+import './education.css'
 
 interface Props{
     courseName: string
@@ -13,3 +14,5 @@ const ClassBox: React.FC<Props> = ({courseName}) => {
         </div>
     )
 }
+
+export default ClassBox

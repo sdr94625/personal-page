@@ -2,6 +2,7 @@ import Link from "next/link"
 import styles from './page.module.css'
 import { LeidosBox } from "@/components/experience/LeidosBox"
 import DRTBox from "@/components/experience/DRTBox"
+import Footer from "@/components/footer/Footer"
 
 export default function Home(){
 
@@ -20,6 +21,7 @@ export default function Home(){
                     <p>Back</p>
                 </div>
             </Link>
+            <Footer />
         </main>
     )
 }

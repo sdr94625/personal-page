@@ -1,9 +1,13 @@
 .footer-box{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: .5rem;
-    font-size: x-large;
+    font-size: xx-large;
+    background-color: #00000033;
 }
