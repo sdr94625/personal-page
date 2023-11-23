@@ -8,10 +8,7 @@ export default function Home() {
     return(
         <main className={styles.main}>
             <div className={styles.title}>
-                <h1>Senior Computer Science Student</h1>
-            </div>
-            <div className={styles.intro}>
-                <h2>Senior Computer Science Student</h2>
+                <h1>Relevant Coursework</h1>
             </div>
             <div className={styles.classes}>
                 <ClassBox courseName='Software Engineering' />
